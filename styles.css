@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+}
+
+.header h1 {
+    display: flex;
+    flex: 1;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.header ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 400px;
+    gap: 5px;
+    list-style: none;
+}
+
+.banner {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.banner-left {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.banner-left-head {
+    font-size: 30px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 75px;
+}
+
+.info-header {
+    font-size: 30px;
+    text-align: center;
+}
+
+.info-cards {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.info-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+}
+
+.info-text {
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+}
+
+.quote-text {
+    font-size: 25px;
+    width: 500px;
+}
+
+.quote-author {
+    display: flex;
+    width: 500px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.signup {
+    width: 700px;
+    margin: auto;
+    margin-bottom: 75px;
+}
+
+.signup-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.signup-box-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-box-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box-right button {
+    width: 60px;
+    font-size: 12px;
+}
+
+.signup-header {
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
