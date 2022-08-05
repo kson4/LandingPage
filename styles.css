@@ -3,8 +3,14 @@
     flex-direction: column;
 }
 
+.header-container {
+    background-color: #1F2937;
+}
+
 .header {
     display: flex;
+    color: white;
+    margin: 0 150px 0 150px;
 }
 
 .header h1 {
@@ -16,6 +22,7 @@
     display: flex;
     flex-direction: row;
     flex: 1;
+    justify-content: flex-end;
 }
 
 .header ul {
@@ -23,13 +30,16 @@
     justify-content: flex-end;
     align-items: center;
     width: 400px;
-    gap: 5px;
+    gap: 20px;
     list-style: none;
 }
 
 .banner {
     display: flex;
     margin-bottom: 30px;
+    margin: 0 150px 75px 150px;
+    color: white;
+    gap: 30px;
 }
 
 .banner-left {
@@ -46,6 +56,14 @@
     justify-content: flex-start;
 }
 
+.banner-button {
+    border-radius: 10px;
+}
+
+.banner-button button{
+    background-color: #3882F6;
+}
+
 .info {
     display: flex;
     flex-direction: column;
@@ -55,7 +73,10 @@
 
 .info-header {
     font-size: 30px;
+    font-weight: bold;
     text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .info-cards {
@@ -63,7 +84,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 35px;
 }
 
 .info-card {
@@ -84,11 +105,16 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 75px;
+    background-color: #E5E7EB;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    color: black;
 }
 
 .quote-text {
     font-size: 25px;
     width: 500px;
+    font-style: italic;
 }
 
 .quote-author {
@@ -96,12 +122,16 @@
     width: 500px;
     justify-content: flex-end;
     align-items: flex-end;
+    font-weight: bold;
 }
 
 .signup {
     width: 700px;
     margin: auto;
     margin-bottom: 75px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
 }
 
 .signup-box {
@@ -136,4 +166,9 @@
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
